@@ -1,0 +1,7 @@
+1-The system shall show all the players based on the day they play on the playground
+
+2-The system shall provide a report* service for every player
+
+3-The system shall show the main event of the day for the selected playground
+
+*The report service is intended to be used by referees to signal unfair players or cheaters.
