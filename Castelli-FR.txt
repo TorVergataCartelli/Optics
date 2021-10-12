@@ -1,0 +1,5 @@
+Functional Requirements:
+
+1) The system shall provide a map, based on user location, to search a playground.
+2) The system shall provide a points/stars based review system.
+3) The system shall upgrade a profile to "PLUS" mode if it achieve 20 positive reviews.
