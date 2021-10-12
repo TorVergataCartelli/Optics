@@ -1,11 +1,11 @@
 User Stories:
 
-1) As a softair player/referee, I want to find playgrounds and read information about them, 
+1) As a softair player, I want to find playgrounds and read information about them, 
    so that I can choose where to go.
 
 2) As a playground owner, I want to show to other users information about my playground, 
-   so that players/referee could know it and come to play.
+   so that players could know it and come to play.
 
-3) As a softair player/referee, I want to review a playground where I've been, 
+3) As a softair player, I want to review a playground where I've been, 
    so that I can give my opinion and help other users deciding the playground.
 
