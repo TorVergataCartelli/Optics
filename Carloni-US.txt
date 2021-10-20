@@ -1,5 +1,5 @@
 1-As a referee, I want to report players that cheats, so that anyboody knows who they are playing with
 
-2-As a player, I want to register the equipment play with, so that I can ask the admin If I can play with it
+2-As a player, I want to register the equipment I play with, so that I can ask the admin If I can play with it
 
 3-As an admin, I want to public the main event of the day, so that players knows what they’re going to play
