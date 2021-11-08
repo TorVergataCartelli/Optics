@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,6 +68,7 @@
       <workItem from="1636043285544" duration="1803000" />
       <workItem from="1636371767150" duration="170000" />
       <workItem from="1636379366172" duration="365000" />
+      <workItem from="1636383274404" duration="714000" />
     </task>
     <servers />
   </component>
