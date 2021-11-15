@@ -14,6 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -27,10 +29,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\IdeaProjects\Optic\target\classes\com\example\optic" />
       <recent name="C:\Users\simon\IdeaProjects\Optic\src\main\resources\com\example\optic" />
     </key>
   </component>
@@ -68,7 +72,10 @@
       <workItem from="1636043285544" duration="1803000" />
       <workItem from="1636371767150" duration="170000" />
       <workItem from="1636379366172" duration="365000" />
-      <workItem from="1636383274404" duration="714000" />
+      <workItem from="1636383274404" duration="971000" />
+      <workItem from="1636544286155" duration="1442000" />
+      <workItem from="1636713672798" duration="6779000" />
+      <workItem from="1636988458706" duration="3479000" />
     </task>
     <servers />
   </component>
