@@ -1,0 +1,24 @@
+.background{
+    -fx-background-color:rgb(28,28,28);
+}
+.menuButton{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+}
+.login:hover{
+    -fx-background-color:GREY;
+    -fx-effect: innershadow(gaussian, rgb(28,28,28), 5, 0.5, 0.0, 0.0);
+}
+.login:pressed{
+    -fx-background-color:rgb(28,28,28);
+    -fx-effect: innershadow(gaussian, GREY, 7, 0.5, 0.0, 0.0);
+}
+.login2:hover{
+    -fx-background-color:rgb(28,28,28);
+    -fx-effect: innershadow(gaussian, GREY, 5, 0.5, 0.0, 0.0);
+}
+.login2:pressed{
+    -fx-text-fill: rgb(28,28,28);
+    -fx-background-color:GREY;
+    -fx-effect: innershadow(gaussian, rgb(28,28,28), 7, 0.5, 0.0, 0.0);
+}
