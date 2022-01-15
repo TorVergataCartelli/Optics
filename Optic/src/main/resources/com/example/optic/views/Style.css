@@ -1,0 +1,209 @@
+.background{
+    -fx-background-color:rgb(28,28,28);
+}
+.backgroundG{
+    -fx-background-color:GREY;
+}
+.backgroundLG{
+    -fx-background-color:rgb(120,120,120);
+}
+.text-area *.content {
+    -fx-background-color: rgb(120,120,120);
+}
+.menuButton{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+    -fx-pref-width: 181;
+    -fx-pref-height: 54;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 16;
+}
+.menuButton2{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+    -fx-pref-width: 87;
+    -fx-pref-height: 34;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 16;
+}
+.menuButton3{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12;
+}
+.menuButtonDF{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 16;
+}
+.changeButton{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+    -fx-pref-width: 54;
+    -fx-pref-height: 54;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 20;
+}
+.icon{
+    -fx-background-color:rgb(28,28,28);
+    -fx-text-fill: rgb(229,190,51);
+}
+.login:hover{
+    -fx-background-color:GREY;
+    -fx-effect: innershadow(gaussian, rgb(28,28,28), 5, 0.5, 0.0, 0.0);
+}
+.login:pressed{
+    -fx-background-color:rgb(28,28,28);
+    -fx-effect: innershadow(gaussian, GREY, 7, 0.5, 0.0, 0.0);
+}
+.login2:hover{
+    -fx-background-color:rgb(28,28,28);
+    -fx-effect: innershadow(gaussian, GREY, 5, 0.5, 0.0, 0.0);
+}
+.login2:pressed{
+    -fx-text-fill: rgb(28,28,28);
+    -fx-background-color:GREY;
+    -fx-effect: innershadow(gaussian, rgb(28,28,28), 7, 0.5, 0.0, 0.0);
+}
+.section{
+    -fx-border-color: rgb(28,28,28);
+    -fx-border-width: 3;
+    -fx-border-radius: 3px 3px 3px 3px;
+}
+.title{
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15;
+}
+.border{
+    -fx-border-radius: 5px 5px 5px 5px;
+}
+.text-black{
+    -fx-text-fill: rgb(28,28,28);
+}
+.text-yellow{
+    -fx-text-fill: rgb(229,190,51);
+}
+#eventi .list-cell{
+    -fx-pref-height: 115;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 10px;
+    -fx-text-fill: rgb(28,28,28);
+    -fx-alignment: TOP_LEFT;
+    -fx-font-size: 14;
+}
+.list-view .list-cell{
+    -fx-background-color: rgb(110,110,110);
+    -fx-pref-height: 55;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 5px; /* 0 */
+    -fx-alignment: TOP_LEFT;
+    -fx-text-fill: rgb(28,28,28);
+    -fx-wrap-text: true;
+    -fx-font-size: 14;
+}
+.list-view .list-cell:odd{
+    -fx-background-color: GREY;
+    -fx-pref-height: 55;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 5px; /* 0 */
+    -fx-alignment: TOP_LEFT;
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-size: 14;
+}
+.table-view .column-header-background .filler{
+    -fx-background-color: GREY;
+}
+.table-view .column-header-background .label{
+    -fx-background-color: GREY;
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 15;
+}
+.table-view .column-header {
+    -fx-background-color: GREY;
+}
+#stars{
+    -fx-alignment: CENTER;
+}
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, rgb(110,110,110);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, GREY;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgb(60,60,60);
+    -fx-table-cell-border-color: rgb(229,190,51);
+    -fx-border-color: rgb(229,190,51);
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.table-view .table-cell {
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-family: "Arial Black";
+}
+.table-view #title{
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 14;
+}
+.textClogo .label{
+    -fx-text-fill: rgb(229,190,51);
+    -fx-font-family: "Arial Black";
+    -fx-font-style: "Regular";
+    -fx-font-size: 15px;
+}
+.textTitoli {
+    -fx-text-fill: rgb(28,28,28);
+    -fx-font-family: "Arial Black";
+    -fx-text-alignment: center;
+}
+.clickabile{
+    -fx-cursor: hand;
+}
+.clickabile:pressed{
+    -fx-text-fill: black;
+}
+.radio-button {
+    -fx-text-fill: rgb(28,28,28);
+}
+.text-area {
+    -fx-background-insets: 0;
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgb(28,28,28);
+    -fx-background-color: transparent, grey, transparent, grey;
+}
+.text-area .content {
+    -fx-background-color: transparent, grey, transparent, grey;
+    -fx-cursor: auto;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, grey, transparent, grey;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: rgb(229,190,51);
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: rgb(229,190,51);
+}
+
+.text-field:focused {
+    -fx-highlight-fill: rgb(229,190,51);
+}
+

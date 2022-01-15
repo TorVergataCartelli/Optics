@@ -1,0 +1,7 @@
+organization=torvergatacartelli
+projectKey=TorVergataCartelli_Optics
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.26045
+dashboardUrl=https://sonarcloud.io/dashboard?id=TorVergataCartelli_Optics
+ceTaskId=AX5eKQ0f0dy1-fLCza9z
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX5eKQ0f0dy1-fLCza9z

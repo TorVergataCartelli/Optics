@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="id" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: GREY; -fx-border-color: rgb(28,28,28); -fx-border-width: 2; -fx-border-radius: 10px 10px 10px 10px; -fx-background-radius: 12px 12px 12px 12px;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.optic.ControllerBookSession">
+    <children>
+        <ToolBar layoutX="1136.0" layoutY="2.0" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: GREY; -fx-background-radius: 10PX 10PX 10PX 10PX;">
+            <items>
+                <Button layoutX="10.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reduceButton" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: GREY; -fx-cursor: hand;">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0">
+                            <image>
+                                <Image url="@img/minus-1214312.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button layoutX="42.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exitButton" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: GREY; -fx-cursor: hand;">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0">
+                            <image>
+                                <Image url="@img/close-1214342.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </items>
+        </ToolBar>
+        <BorderPane layoutY="32.0" prefHeight="688.0" prefWidth="1200.0">
+            <top>
+                <ToolBar prefHeight="86.0" prefWidth="1199.0" style="-fx-background-radius: 9px 9px 9px 0px;" styleClass="background" BorderPane.alignment="CENTER">
+                    <items>
+                        <Button layoutX="10.0" layoutY="20.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="170.0" style="-fx-cursor: hand; -fx-background-color: rgb(28,28,28);">
+                            <font>
+                                <Font name="Arial" size="1.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="65.0" fitWidth="178.0">
+                                    <image>
+                                        <Image url="@img/logo.jpg" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <GridPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="76.0" prefWidth="382.0" styleClass="textClogo">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="413.0" minWidth="10.0" prefWidth="96.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="513.0" minWidth="10.0" prefWidth="281.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <Label alignment="BOTTOM_LEFT" contentDisplay="RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="93.0" text="Giocatore:" textAlignment="RIGHT">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Label>
+                                <Label fx:id="user" alignment="BOTTOM_LEFT" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="264.0" styleClass="clickabile" text="NamePlayer" GridPane.columnIndex="1">
+                                    <font>
+                                        <Font name="Arial Black" size="14.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets />
+                                    </GridPane.margin>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="5.0" />
+                            </padding>
+                        </GridPane>
+                    </items>
+                </ToolBar>
+            </top>
+            <left>
+                <AnchorPane prefHeight="515.0" prefWidth="192.0" style="-fx-background-radius: 0px 0px 0px 12px;" styleClass="background" BorderPane.alignment="CENTER">
+                    <children>
+                        <ToolBar layoutX="-4.0" orientation="VERTICAL" prefHeight="471.0" prefWidth="196.0" styleClass="background">
+                            <items>
+                                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#toLogin" prefHeight="54.0" prefWidth="181.0" style="-fx-cursor: hand;" text="Indietro">
+                                    <font>
+                                        <Font name="Arial Black" size="16.0" />
+                                    </font>
+                                    <styleClass>
+                                        <String fx:value="login" />
+                                        <String fx:value="menuButton" />
+                                    </styleClass>
+                                </Button>
+                                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#toProfile" prefHeight="54.0" prefWidth="181.0" style="-fx-cursor: hand;" text="Profilo">
+                                    <font>
+                                        <Font name="Arial Black" size="16.0" />
+                                    </font>
+                                    <styleClass>
+                                        <String fx:value="login" />
+                                        <String fx:value="menuButton" />
+                                    </styleClass>
+                                </Button>
+                            </items>
+                        </ToolBar>
+                    </children>
+                </AnchorPane>
+            </left>
+            <center>
+                <TableView fx:id="table" onMouseClicked="#tableview" prefHeight="200.0" prefWidth="200.0" styleClass="backgroundG" BorderPane.alignment="CENTER">
+                    <columns>
+                        <TableColumn fx:id="NomeC" prefWidth="501.0" text="Nome Campo" />
+                        <TableColumn fx:id="Provincia" prefWidth="506.0" text="Provincia" />
+                    </columns>
+               <BorderPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </BorderPane.margin>
+                </TableView>
+            </center>
+        </BorderPane>
+    </children>
+</Pane>

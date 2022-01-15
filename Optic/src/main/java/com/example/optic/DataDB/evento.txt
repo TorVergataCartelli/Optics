@@ -1,0 +1,5 @@
+Attacco e Difesa    La difesa deve salvaguardare e proteggere un obiettivo. L'attacco deve organizzarsi e cercare di conquistare l'obiettivo senza che tutti i membri siano eliminati.  30
+Cattura la Bandiera Ciascuna squadra deve proteggere una bandiere,localizzata nella propria base. L'obiettivo è di conquistare la bandiera nemica e portarla nella propria base prima della squadra nemica. 20
+Deathmatch  Due squadre si affrontano. La prima squadra che viene completamente eliminata perde.    15
+Dominio Le squadre devono cercare di mantenere il controllo di alcune zone. Eliminando un giocatore si prendono punti pari alle zone attualmente conquistate. La prima squadra a raggiungere il limite di punti fissato, vince. 35
+Vip Una squadra deve proteggere il vip dai terroristi per un certo numero di minuti. I terroristi non devono uccidere il vip. I terroristi vincono se riportano il vip nella loro base. 20
