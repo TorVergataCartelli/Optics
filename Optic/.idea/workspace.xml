@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffc5747-c8a5-44b2-b5ad-ee4802834451" name="Changes" comment="" />
+    <list default="true" id="4efd8a52-79f6-4256-8c10-27adaa747608" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +14,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="20MjY8AxBBFrGj3u3LuRQKLbv4L" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="23Et2EwTsmd1e919rE5jFFpTBIL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,15 +35,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\uazap\Desktop\Optic\target\classes\com\example\optic" />
-      <recent name="C:\Users\simon\IdeaProjects\Optic\target\classes\com\example\optic" />
-      <recent name="C:\Users\simon\IdeaProjects\Optic\src\main\resources\com\example\optic" />
-    </key>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3816092" />
   </component>
   <component name="RunManager">
     <configuration name="Optic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -62,35 +62,57 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ffc5747-c8a5-44b2-b5ad-ee4802834451" name="Changes" comment="" />
-      <created>1635861401622</created>
+      <changelist id="4efd8a52-79f6-4256-8c10-27adaa747608" name="Changes" comment="" />
+      <created>1641310868642</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1635861401622</updated>
-      <workItem from="1635861402946" duration="802000" />
-      <workItem from="1635862258756" duration="5928000" />
-      <workItem from="1635937492968" duration="3244000" />
-      <workItem from="1636043285544" duration="1803000" />
-      <workItem from="1636371767150" duration="170000" />
-      <workItem from="1636379366172" duration="365000" />
-      <workItem from="1636383274404" duration="971000" />
-      <workItem from="1636544286155" duration="1442000" />
-      <workItem from="1636713672798" duration="6779000" />
-      <workItem from="1636988458706" duration="3479000" />
-      <workItem from="1637002661878" duration="17000" />
-      <workItem from="1637003963491" duration="748000" />
-      <workItem from="1637425726736" duration="13000" />
-      <workItem from="1637427050611" duration="1274000" />
-      <workItem from="1637435586624" duration="773000" />
-      <workItem from="1637518427142" duration="692000" />
+      <updated>1641310868642</updated>
+      <workItem from="1641310870688" duration="33000" />
+      <workItem from="1641310951395" duration="2735000" />
+      <workItem from="1641314797402" duration="393000" />
+      <workItem from="1641314658355" duration="194000" />
+      <workItem from="1641314944411" duration="36000" />
+      <workItem from="1641315019717" duration="175000" />
+      <workItem from="1641315591076" duration="4268000" />
+      <workItem from="1641319873850" duration="4000" />
+      <workItem from="1641378025070" duration="47000" />
+      <workItem from="1641399192099" duration="5353000" />
+      <workItem from="1641553509027" duration="690000" />
+      <workItem from="1641554576964" duration="1214000" />
+      <workItem from="1641560197802" duration="6117000" />
+      <workItem from="1641567894946" duration="8537000" />
+      <workItem from="1641578198813" duration="11000" />
+      <workItem from="1641579961724" duration="985000" />
+      <workItem from="1641634244974" duration="44000" />
+      <workItem from="1641634405711" duration="10813000" />
+      <workItem from="1641649126643" duration="5575000" />
+      <workItem from="1641720969161" duration="12076000" />
+      <workItem from="1641747236541" duration="3887000" />
+      <workItem from="1641809052653" duration="10171000" />
+      <workItem from="1641835083022" duration="199000" />
+      <workItem from="1641895201421" duration="7652000" />
+      <workItem from="1641903367885" duration="1000" />
+      <workItem from="1641906953806" duration="6634000" />
+      <workItem from="1641913684817" duration="4000" />
+      <workItem from="1641913788039" duration="2174000" />
+      <workItem from="1641984333183" duration="2723000" />
+      <workItem from="1641987863639" duration="908000" />
+      <workItem from="1641997471075" duration="62000" />
+      <workItem from="1641997688372" duration="4510000" />
+      <workItem from="1642007371484" duration="11000" />
+      <workItem from="1642008335546" duration="910000" />
+      <workItem from="1642086528071" duration="145000" />
+      <workItem from="1642086846693" duration="64000" />
+      <workItem from="1642153392358" duration="3424000" />
+      <workItem from="1642160066614" duration="4786000" />
+      <workItem from="1642178539787" duration="4767000" />
+      <workItem from="1642183337412" duration="10000" />
+      <workItem from="1642239982565" duration="1632000" />
+      <workItem from="1642241652880" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

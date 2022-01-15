@@ -9,8 +9,5 @@
         <module name="Optic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Optic" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>
